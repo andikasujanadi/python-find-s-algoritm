@@ -51,10 +51,10 @@ def finds(file):
 def main():
     data=[]
     ans='?'
-    print(f'\n{ya}\n')
-    finds('data_ya.csv')
-    print('\ntidak\n')
-    finds('data_tidak.csv')
+    print(f'\nyes\n')
+    finds('data_yes.csv')
+    print('\nno\n')
+    finds('data_no.csv')
     for x in range(len(label)):
         if(x<len(label)-1):
             data.append(input(f'{label[x]}: '))
